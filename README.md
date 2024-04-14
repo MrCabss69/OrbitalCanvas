@@ -2,6 +2,11 @@
 
 Esta es una librería de JavaScript para crear animaciones visuales fascinantes con partículas en movimiento. Este proyecto te permite configurar y personalizar las partículas y su comportamiento en un canvas HTML.
 
+
+<video src="../videos/6.mp4" controls title="Title"></video>
+
+
+
 ## Características
 
 - Animación fluida y personalizable de partículas.
@@ -19,8 +24,8 @@ Asegúrate de tener instalado Node.js y npm en tu máquina. Esto es necesario pa
 Clona este repositorio y navega al directorio del proyecto:
 
 ```bash
-git clone https://github.com/tu-usuario/mi-proyecto.git
-cd mi-proyecto
+git clone https://github.com/MrCabss69/OrbitalCanvas.git
+cd OrbitalCanvas
 ```
 Instala las dependencias necesarias:
 
