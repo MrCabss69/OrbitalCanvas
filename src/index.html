@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Particle Dance</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="styles.css" rel="stylesheet" title="Default Style" />
+    <script type="module" src="index.js"></script>
+</head>
+<body>
+    <div class="container mt-3">
+        <canvas id="canvas_" class="w-100 h-100 mb-4"></canvas>
+        <div class="row">
+            <div class="col-md-6">
+                <button type="button" class="btn btn-info w-100" id="randomizeConfig">Configuración Aleatoria</button>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Controles de Partículas</h5>
+                <form>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="numPointsControl">Núm. de partículas:</label>
+                                <input type="range" class="custom-range" id="numPointsControl" min="3" max="100" value="72">
+                                <span id="numPointsValue">72</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="speedControl">Velocidad:</label>
+                                <input type="range" class="custom-range" id="speedControl" min="1" max="20" value="5">
+                                <span id="speedValue">5</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="sizeControl">Tamaño:</label>
+                                <input type="range" class="custom-range" id="sizeControl" min="1" max="20" value="10">
+                                <span id="sizeValue">10</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="lineWidthControl">Ancho de línea:</label>
+                                <input type="range" class="custom-range" id="lineWidthControl" min="0.5" max="10" value="1">
+                                <span id="lineWidthValue">1</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="planeAngleControl">Ángulo de planos:</label>
+                                <input type="range" class="custom-range" id="planeAngleControl" min="0" max="360" value="0">
+                                <span id="planeAngleValue">0</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="colorControl">Color:</label>
+                                <input type="color" class="form-control" id="colorControl" value="#ff0000">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <button type="button" class="btn btn-primary w-100" id="toggleAnimation">Iniciar/Parar Animación</button>
+                        </div>
+                        <div class="col-md-6">
+                            <button type="button" class="btn btn-secondary w-100" id="resetAnimation">Resetear Animación</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

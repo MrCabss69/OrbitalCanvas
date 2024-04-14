@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Mejor visibilidad y contraste */
+    color: #212529; /* Color de texto optimizado para legibilidad */
+    
+}
+
+.container {
+    max-width: 950px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada para mejor profundidad */
+    background-color: #ffffff;
+    border-radius: .25rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#canvas_ {
+    border: 1px solid #dee2e6;
+    max-height: 420px; /* Ajuste de altura máxima para dispositivos de mayor resolución */
+
+    aspect-ratio: 16/9; /* Mantener la proporción del canvas para diferentes tamaños de pantalla */
+}
+
+.controls {
+    padding: 10px;
+    border-top: 2px dashed #dee2e6; /* Estilo de línea cambiado a dashed para un toque visual diferente */
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: .5rem; /* Ajuste del espaciado para coherencia con Bootstrap */
+}
+
+input[type="range"], input[type="color"] {
+    width: 100%;
+    cursor: pointer;
+}
+
+button {
+    margin-top: 10px;
+    width: 100%; /* Cambio para que cada botón ocupe toda la anchura disponible en su contenedor */
+    margin-bottom: 10px; /* Espacio entre botones para evitar que se toquen */
+}
+
+button:last-child {
+    margin-right: 0;
+}
