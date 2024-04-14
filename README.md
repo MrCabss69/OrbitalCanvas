@@ -3,8 +3,7 @@
 Esta es una librería de JavaScript para crear animaciones visuales fascinantes con partículas en movimiento. Este proyecto te permite configurar y personalizar las partículas y su comportamiento en un canvas HTML.
 
 
-<video src="resources/6.mp4" controls title="Title"></video>
-
+![Demo](resources/6.mp4)
 
 ## Características
 
