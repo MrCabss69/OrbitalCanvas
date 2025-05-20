@@ -1,5 +1,5 @@
 import { Particle } from './particle.js';
-import { ParticleRenderer } from './particle_render.js'; // o './particleRenderer.js'
+import { ParticleRenderer } from './particle_render.js';
 
 export class Animation {
     static defaultConfig = {
@@ -179,7 +179,6 @@ export class Animation {
     
         // Cambios globales (se reflejan en cada frame, ej: lineWidth)
         // No se requiere acción aquí, ya que drawEdges lee de this.config.lineWidth, etc.
-    
         // Si tienes propiedades que afectan el renderer (gradiente, glow, etc.):
         if (property === 'gradiente' || property === 'glow') {
             this.particleRenderer.style[property] = value;

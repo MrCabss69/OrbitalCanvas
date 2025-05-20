@@ -1,32 +1,43 @@
 # Orbital Canvas
 
-Esta es una librería de JavaScript para crear animaciones visuales de partículas en movimiento en un simple canvas HTML.
+This is a JavaScript library for creating visual animations of moving particles on a simple HTML canvas.
 
 
-![Demo](resources/5.mp4)
+![Hero](resources/interface.png)
 
-## Características
+#### Inspired by: [Geometría Aurea](https://instagram.com/geometria_aurea/)
 
-- Animación fluida y personalizable de partículas.
-- Controles interactivos para ajustar parámetros en tiempo real.
-- Fácil integración en cualquier página web.
 
-## Inicio rápido
+[Video Demo](resources/demo.mp4)
 
-### Instalación
+## Features
 
-Clona este repositorio y navega al directorio del proyecto:
+- Smooth and customizable particle animation.
+- Interactive controls for adjusting parameters in real time.
+- Easy integration into any web page.
+
+**NOTE:** Video recording is not tested.
+
+## Quick Start
+
+### Installation
+
+Clone this repository and navigate to the project directory:
 
 ```bash
 git clone https://github.com/MrCabss69/OrbitalCanvas.git
 cd OrbitalCanvas
 ```
 
-### Uso
+### Usage
 
 ```bash
-OrbitalCanvas/src$ python3 -m http.server 8000
+cd src
+python3 -m http.server 8000
 ```
-Para ver la demostración de la librería, abre http://0.0.0.0:8000/ en tu navegador. 
+To see the library demo, visit http://0.0.0.0:8000/ on your browser.
 
-**NOTA**: algunas veces para aplicar y ver reflejados algunos de los campos, hay que pulsar el botón 'Resetear Animación' para refrescar la vista
+**NOTE**: Sometimes, to apply and see some of the fields reflected, you may need to press the 'Reset Animation' button to refresh the view.
+
+
+Made by: MrCabss. Polished by GPT & Gemini

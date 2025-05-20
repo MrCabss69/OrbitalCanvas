@@ -109,7 +109,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     break;
                 case 'string': // Para el color, etc.
                 default:
-                    // value ya es string
                     break;
             }
             
@@ -204,8 +203,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             console.log("Attempting to save video...");
             capturer.save();
-            // Después de guardar, CCapture resetea su estado interno y no se puede llamar a save() de nuevo
-            // para el mismo conjunto de frames. Si se quiere grabar de nuevo, se debe llamar a capturer.start()
         });
     }
 
